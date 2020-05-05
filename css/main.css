@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------
+>>> CSS STANDARDS
+----------------------------------------------------------------
+1. Place in appropriate section
+2. Add new sections to the Table of Contents as needed
+3. Order properties consistently inside each declaration i.e. alphabetically or by function 
+4. Declaration selectors should each occupy a new line
+5. Enter one new line between rules
+6. Enter more than one new line between categories 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Settings: used with preprocessors and contain font, colors definitions, etc.
+2.0 - Tools: globally used mixins and functions. Use for preprocessor only.
+3.0 - Generic: reset and/or normalize styles, box-sizing definition, etc. 
+4.0 - Elements: styling for bare/generic HTML elements 
+        - Forms
+        - Lists
+        - Media
+        - Tables
+        - Typography: Headings, Paragraphs, Blockquotes, Anchors
+5.0 - Objects: class-based selectors which define undecorated design patterns, building blocks
+        - Framework
+6.0 - Components: specific designed components
+        - Buttons
+        - Header
+        - Navigation 
+7.0 - Utilities: utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+        - Alignment	    
+        - Color
+        - Size
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 SETTINGS
+-------------------------------------------------------------- */
+
+
+
+/*--------------------------------------------------------------
+2.0 TOOLS
+-------------------------------------------------------------- */
+
+
+/*--------------------------------------------------------------
+3.0 - GENERIC 
+-------------------------------------------------------------- */
+
+* {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+/*--------------------------------------------------------------
+4.0 - ELEMENTS 
+-------------------------------------------------------------- */
+h1 {
+        text-transform:uppercase;
+}
+
+li {
+        display:inline-block;
+}
+
+a {
+        text-decoration:none;
+}
+
+
+/* -- FORMS -- */ 
+
+
+/*--------------------------------------------------------------
+5.0 OBJECTS
+-------------------------------------------------------------- */
+
+/* -- FRAMEWORK -- */
+
+
+.row {
+        overflow:auto;
+}
+
+.flt-left {
+        float:left;
+}
+
+.flt-right {
+        float:right;
+}
+
+/*--------------------------------------------------------------
+6.0 COMPONENTS
+-------------------------------------------------------------- */
+h1, footer > p:first-child, footer p:last-child a {
+        color:#7B40BF;
+}
+
+.wrapper > section:nth-of-type(4) section .row div:first-child  {
+        background-color:#7840BF;
+        width:40px;
+        height:3px;
+}
+
+h1 span, footer span, i{
+        color:#FF5C97;
+}
+.wrapper > header ul, h1, .wrapper > header > div {
+        text-align:center;
+}
+
+.wrapper > header li {
+        margin-right:10px;
+}
+
+.wrapper > section:nth-of-type(4) a, .wrapper > header nav a, .wrapper > header nav a:visited, h2, h3, h4, .col-footer p {
+        color:#2B4A80;
+}
+
+.wrapper > header > div a {
+     background-color:#4043BC;
+     width:calc(100%*1/4);
+     margin:0 auto;
+     padding:10px;
+     border-radius:10px;
+}
+
+.wrapper > header > div a, .btn-pink {
+        color: #fff;
+}
+
+#about p, #services p, .wrapper > section:nth-of-type(3) p, footer address a, footer nav i, footer nav:nth-of-type(2) a, footer p:last-child {
+        color:#707B8D;
+}
+
+/* -- BUTTONS --*/
+
+.btn-pink {
+        background-color:#FF5C97;
+        padding:25px 50px;
+        -moz-border-radius:10px;
+        -o-border-radius:10px;
+        -ms-border-radius:10px;
+        -webkit-border-radius:10px;
+        border-radius:10px;
+}
+
+
+/*--------------------------------------------------------------
+7.0 UTILITIES
+-------------------------------------------------------------- */
+

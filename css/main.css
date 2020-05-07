@@ -65,13 +65,6 @@
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
-h1 {
-        text-transform:uppercase;
-}
-
-li {
-        display:inline-block;
-}
 
 a {
         text-decoration:none;
@@ -107,21 +100,30 @@ h1, footer > p:first-child, footer p:last-child a {
         color:#7B40BF;
 }
 
+h1, #contact p:first-child {
+        text-transform:uppercase;
+}
+
 .wrapper > section:nth-of-type(4) section .row div:first-child  {
         background-color:#7840BF;
         width:40px;
         height:3px;
+        margin-top:9px;
+        margin-right:20px;
 }
 
-h1 span, footer span, i{
+h1 span, footer span, i, .wrapper > p, time{
         color:#FF5C97;
 }
-.wrapper > header ul, h1, .wrapper > header > div {
+.wrapper > header ul, h1, .wrapper > header > div, .wrapper > p, #services > header h2, #services > header + section, #pricing, #services > section:nth-of-type(2) > section:first-of-type h3, #services + section h2, #services + section blockquote > p, #services + section + section h2, .wrapper > footer p:last-child {
         text-align:center;
 }
 
-.wrapper > header li {
-        margin-right:10px;
+.wrapper > header li, footer nav:first-of-type li {
+        margin-right:17px;
+        margin-top:30px; 
+        margin-bottom:30px;
+        display:inline-block;
 }
 
 .wrapper > section:nth-of-type(4) a, .wrapper > header nav a, .wrapper > header nav a:visited, h2, h3, h4, .col-footer p {
@@ -132,8 +134,7 @@ h1 span, footer span, i{
      background-color:#4043BC;
      width:calc(100%*1/4);
      margin:0 auto;
-     padding:10px;
-     border-radius:10px;
+     padding:6px 15px;
 }
 
 .wrapper > header > div a, .btn-pink {
@@ -144,16 +145,183 @@ h1 span, footer span, i{
         color:#707B8D;
 }
 
+.wrapper > p {
+        font-size: 30px;
+        font-weight:700;
+}
+
+
+#services > header {
+        margin-bottom: 80px;
+        margin-top:80px;
+}
+
+#services header + section header i {
+        margin-bottom:10px;
+}
+
+#services header + section section a i {
+        margin-top:25px;
+        margin-bottom: 100px;
+        margin-right:10px;
+}
+
+#services header + section section a, #services header + section section a i  {
+        color:#C4CCD8;
+}
+
+#about h2 {
+        width:55%;
+}
+
+#about p {
+        margin-bottom:60px;
+}
+
+.btn-pink, .wrapper > header > div a, #services + section + section img, .generating-customers, .pricing-plan {
+        -moz-border-radius:7px;
+        -o-border-radius:7px;
+        -ms-border-radius:7px;
+        -webkit-border-radius:7px;
+        border-radius:7px;
+}
+
+#services img, .col-new-customers:last-child {
+        width:75%;
+}
+
+.col-new-customers:last-child {
+        margin-right:60px;
+}
+
+.col-new-customers:first-child {
+        margin-top:20px;;
+}
+
+.generating-customers, .pricing-plan {
+        border:1px solid #C4CCD8;
+        margin-bottom: 25px;
+        width:95%;
+}
+
+#services + section h2 {
+        margin-bottom:50px;
+}
+
+.generating-customers i {
+        font-size:30px;
+}
+
+#pricing i {
+        font-size:50px;
+        margin-top:60px;
+}
+
+#pricing p:last-child {
+        margin-bottom:70px;
+}
+
+#pricing h4 {
+        font-size:25px;
+        margin-top:15px
+}
+
+#col-quote img {
+        width:30%;
+        margin-top:10px;
+        margin-left:5px;
+}
+
+#services + section + section img {
+        width: 95%;
+        margin-top:40px;
+        margin-bottom:20px;
+}
+
+footer nav:nth-of-type(2) ul {
+        list-style-type:none;
+}
+
+footer ul {
+        padding-left:0;
+}
+
+#services section:first-of-type header i {
+        font-size:45px;
+}
+
+#services > img + section > header p {
+        margin-top:25px;
+        margin-bottom:60px;
+}
+
+#services > img + section h3 {
+        margin-top:80px;
+        margin-bottom:60px;
+}
+
+#col-quote {
+        margin:0 auto;
+        width:50%;
+}
+
+#col-quote p:first-child {
+        color:#2D1088;
+        font-size:20px;
+        font-weight:700;
+        margin-bottom:0px;
+}
+
+#col-quote div {
+        margin-right:5px;
+}
+
+#col-quote p:last-child {
+        font-size:13px;
+        margin-top:5px;
+}
+
+.wrapper > section:nth-of-type(4) h2 {
+        margin-top:40px;
+        margin-bottom:20px;
+}
+
+.wrapper > section:nth-of-type(4) .row {
+        margin-top:30px;
+        margin-bottom:30px;
+}
+
+#contact > p:first-child {
+        font-size:20px;
+}
+
+#contact p:first-child span {
+        margin-right:10px;
+}
+
+.col-footer {
+        width:31%;
+}
+
+.col-footer:nth-child(2) {
+        margin-left:23px;
+}
+
+.col-footer li {
+        margin-bottom:10px;
+}
+
+.col-footer p {
+        font-weight:600;
+}
+
+
+
 /* -- BUTTONS --*/
 
 .btn-pink {
         background-color:#FF5C97;
-        padding:25px 50px;
-        -moz-border-radius:10px;
-        -o-border-radius:10px;
-        -ms-border-radius:10px;
-        -webkit-border-radius:10px;
-        border-radius:10px;
+        padding:15px 50px;
 }
 
 
